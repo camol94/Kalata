@@ -1,0 +1,22 @@
+.no-style-list {
+	list-style-type: none;
+}
+.clearfix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}
+.center {
+	text-align: center;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+}
+.basic-transition(@time) {
+	transition: all @time;
+}
